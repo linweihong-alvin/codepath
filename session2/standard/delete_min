@@ -1,0 +1,18 @@
+def delete_minimum_elements(random_list):
+    new_ordered_list = []
+    while random_list:
+        min_number = min(random_list)
+        new_ordered_list.append(min_number)
+        random_list.remove(min_number)
+
+    return new_ordered_list
+
+
+# test_list = [5, 3, 2, 4, 1]
+
+# test_list = [1, 1, 1, 1]
+
+test_list = []
+
+
+print(delete_minimum_elements(test_list))

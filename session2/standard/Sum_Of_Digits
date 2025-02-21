@@ -1,0 +1,11 @@
+def sum_of_digits(num):
+    digit_list = list(str(num))
+    # print(digit_list)
+    sum = 0
+    for digit in digit_list:
+        sum += int(digit)
+
+    return sum
+
+
+print(sum_of_digits(4))

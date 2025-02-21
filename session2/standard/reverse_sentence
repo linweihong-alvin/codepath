@@ -8,4 +8,4 @@ def reverse_sentence(sentence):
     return reversed_sentence
 
 
-reverse_sentence("tubby little cubby all stuffed with fluff")
+print(reverse_sentence("tubby little cubby all stuffed with fluff"))
